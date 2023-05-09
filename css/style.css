@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;600&display=swap');
+
+body{
+    font-family: 'Inter',sans-serif;
+}
+
+.subtitulo{
+    letter-spacing: 0.3em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.container{
+    font-size: 10px;
+}
+
+.container img{
+    height: 50px;
+}
+
+.secao-conteudo{
+    min-height: 500px;
+    background-image: url("../img/conteudo.jpg");
+    background-size: cover;
+    background-position: center;
+    top: 73px;
+}
+
+.conteudo{
+    padding-left:  100px;
+    padding-top: 100px;
+    
+}
+
+.conteudo h1{
+    font-weight: bolder;
+    text-align: left;
+    letter-spacing: 0.1em;
+
+}
+.conteudo h2{
+    letter-spacing: 0.3em;
+    font-style: normal;
+}
+
+/*Secao Sobre*/
+.secao-sobre{
+    padding: 25px;
+    width: 860px;
+    margin: auto;
+}
+
+.secao-sobre h3{
+    font-weight: bolder;
+}
+
+.conteudo-sobre{
+    display: table;
+}
+
+.imagem-sobre{
+    display: table-cell;
+    float: left;
+}
+
+.texto-sobre{
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: 20px;
+    text-align: justify;
+}
+/*Seção Serviços*/
+
+#servico2{
+    margin: 15px auto 15px auto;
+}
+.secao-servicos img{
+    width: 462px;
+    height: 239px;
+}
+
+.servico{
+    display: table;
+}
+
+.imagem-servico2{
+    display: table-cell;
+    float: left;
+}
+
+.texto-servico2{
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: 50px;
+    text-align: left;
+    padding: 50px;
+    font-style: normal;
+}
+
+
+.imagem-servico1{
+    display: table-cell;
+    float: right;
+}
+
+.texto-servico1{
+    display: table-cell;
+    float: right;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 45px;
+    text-align: justify;
+    align-items: center;
+    font-style: normal;
+
+    
+}
+
+/*Secao Horarios*/
+.secao-horario{
+    padding: 25px;
+    width: 860px;
+    margin: auto;
+}
+
+.secao-sobre h3{
+    font-weight: bolder;
+}
+
+.conteudo-horario{
+    display: table;
+}
+
+
+span{
+    font-weight: bold;
+}
+
+/*Secao Contatos*/
+.secao-contatos{
+    background-image: url("../img/contato.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+.secao-contatos h3{
+    margin-left: 50px;
+}
+
+.conteudo-contatos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.conteudo-contatos a {
+    text-decoration: none;
+    color: black;
+}
+
+/*animacao link*/
+a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+
+img:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+
+
+/*Responsividade*/
+
+@media (max-width:600px){ 
+    .conteudo{
+        padding-top: 10px;
+        padding-left: 30%;
+    }
+
+    .imagem-sobre{ /*remove a imagem sobre nós*/
+        display: none;
+    }
+
+    /*Seção Serviços*/
+    .secao-servicos{
+        width: 100%;
+    }
+
+    .secao-servicos img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .servico{
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+    }
+
+    .imagem-servico2,.imagem-servico1 {
+        width: 100%;
+        height: 100%;
+        display: inline;
+        margin: 10px;
+    }
+
+    .texto-servico1, .texto-servico2{
+        display: contents;
+        width: 100%;
+        text-align: center;  
+      
+    }
+    
+    /*horarios*/
+    .texto-sobre{
+        width: 250px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    /*contatos*/
+    .secao-contatos{
+        position: relative;
+    }
+
+    .conteudo-contatos{
+        position: absolute;
+        top: 40%;
+        left: 28%;
+        margin: -25px 0 0 -25px;
+        width: 300px;
+        line-height: 10px;
+    }
+
+    
+
+}
+
+
