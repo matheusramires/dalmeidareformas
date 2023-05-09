@@ -183,7 +183,7 @@ img:hover{
 
 /*Responsividade*/
 
-@media (max-width:600px){ 
+@media (max-width:700px){ 
     .conteudo{
         padding-top: 10px;
         padding-left: 30%;
