@@ -200,6 +200,10 @@ img:hover{
     margin-top: 16px;
 }
 
+h5{
+    font-size: 12px;
+    color: #888;
+}
 
 /*Responsividade*/
 
@@ -210,6 +214,19 @@ img:hover{
         padding-left: 30%;
     }
 
+    .secao-sobre{
+        width: 100%;
+        text-align: center;
+    }
+
+    .texto-sobre{
+        width: 250px;
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        margin-left: 75px;
+
+    }
     .imagem-sobre{ /*remove a imagem sobre nós*/
         display: none;
     }
@@ -245,13 +262,19 @@ img:hover{
       
     }
     
+  
+
     /*horarios*/
-    .texto-sobre{
-        width: 250px;
-        margin-top: 20px;
-        text-align: justify;
+    .secao-horario{
+        width: 100%;
+        text-align: center;
+        align-items: center;
     }
 
+    .texto-horario{
+        text-align: center;
+        margin-left: 72px;
+    }
     /*contatos*/
     .secao-contatos{
         position: relative;
