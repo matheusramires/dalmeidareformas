@@ -14,7 +14,8 @@ body{
 }
 
 .container img{
-    height: 50px;
+    height: 90px;
+    
 }
 
 .secao-conteudo{
@@ -62,11 +63,15 @@ body{
     float: left;
 }
 
+.imagem-sobre img{
+    width: 500px;
+}
+
 .texto-sobre{
     display: table-cell;
     float: left;
     width: 300px;
-    margin-top: 20px;
+    margin-top: 200px;
     text-align: justify;
 }
 /*Seção Serviços*/
@@ -137,6 +142,13 @@ body{
 
 .conteudo-horario{
     display: table;
+}
+
+.texto-horario{
+    float: left;
+    width: 350px;
+    margin-top: 30px;
+    text-align: left;
 }
 
 
@@ -224,8 +236,8 @@ h5{
         margin-top: 20px;
         text-align: center;
         align-items: center;
-        margin-left: 45px;
-
+        margin-left: 80px;
+        
     }
     .imagem-sobre{ /*remove a imagem sobre nós*/
         display: none;
