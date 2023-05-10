@@ -29,12 +29,14 @@ body{
 .conteudo{
     padding-left:  100px;
     padding-top: 100px;
-    
+    width: 25%;
+    align-items: center;    
 }
 
 .conteudo h1{
     font-weight: bolder;
     text-align: left;
+    margin-left: 80px;
     letter-spacing: 0.1em;
 
 }
@@ -224,6 +226,11 @@ h5{
     .conteudo{
         padding-top: 10px;
         padding-left: 30%;
+    }
+
+    .conteudo h1{
+        width: 100px;
+        margin-left: 60px;
     }
 
     .secao-sobre{
