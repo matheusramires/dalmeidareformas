@@ -36,7 +36,8 @@ body{
 .conteudo h1{
     font-weight: bolder;
     text-align: left;
-    margin-left: 80px;
+    margin-left: 35px;
+    font-size: 100px;
     letter-spacing: 0.1em;
 
 }
@@ -229,8 +230,10 @@ h5{
     }
 
     .conteudo h1{
-        width: 100px;
-        margin-left: 60px;
+        width: 150px;
+        margin-left: 40px;
+        font-size: 50px;
+        margin-bottom: 0px;
     }
 
     .secao-sobre{
