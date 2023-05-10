@@ -232,12 +232,11 @@ h5{
     }
 
     .texto-sobre{
-        width: 250px;
+        width: 100%;
         margin-top: 20px;
         text-align: center;
         align-items: center;
-        margin-left: 80px;
-        
+        margin-left: auto;
     }
     .imagem-sobre{ /*remove a imagem sobre nós*/
         display: none;
@@ -269,13 +268,11 @@ h5{
 
     .texto-servico1, .texto-servico2{
         display: contents;
-        width: 100%;
+        width: 95%;
         text-align: center;  
       
     }
     
-  
-
     /*horarios*/
     .secao-horario{
         width: 100%;
@@ -284,9 +281,10 @@ h5{
     }
 
     .texto-horario{
+        width: 100%;
         text-align: center;
-        margin-left: 45px;
-    }
+
+            }
     /*contatos*/
     .secao-contatos{
         position: relative;
